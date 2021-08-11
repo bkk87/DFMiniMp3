@@ -521,6 +521,7 @@ private:
                         break;
 
                     case 0x3d: // micro sd
+                    case 0x4c: // micro sd
                         T_NOTIFICATION_METHOD::OnPlayFinished(DfMp3_PlaySources_Sd, replyArg);
                         break;
 
